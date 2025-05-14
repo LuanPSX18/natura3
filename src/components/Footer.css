@@ -1,0 +1,24 @@
+/* src/components/Footer.css */
+
+.footer-container {
+  text-align: center; /* Centraliza o conteúdo (links e separador) */
+  padding: 20px; /* Espaço interno */
+  margin-top: 30px; /* Espaço acima do rodapé para separá-lo do conteúdo principal */
+  background-color: #f0f0f0; /* Mesmo fundo cinza claro do cabeçalho para consistência */
+  border-top: 1px solid #ccc; /* Uma linha na parte superior */
+  width: 100%; /* Garante que o rodapé ocupe toda a largura */
+}
+
+.footer-container a {
+  margin: 0 10px; /* Espaço horizontal entre os links */
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  color: #007bff; /* Cor azul para os links (pode ser alterado) */
+}
+
+.footer-container a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.footer-container .footer-separator {
+  color: #666; /* Cor para o separador */
+}

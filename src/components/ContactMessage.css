@@ -1,0 +1,20 @@
+/* src/components/ContactMessage.css */
+
+.contact-message-container {
+  text-align: center; /* Centraliza o texto */
+  padding: 20px; /* Adiciona espaço interno */
+  margin-top: 20px; /* Espaço acima da mensagem para separá-la dos cards */
+  margin-bottom: 20px; /* Espaço abaixo da mensagem para separá-la do rodapé */
+  background-color: #ee72f0; /* Um fundo levemente amarelado para destacar (opcional) */
+  border-radius: 8px; /* Cantos arredondados */
+  max-width: 600px; /* Limita a largura máxima para o texto não ficar muito longo em telas grandes */
+  margin-left: auto; /* Centraliza o bloco com max-width */
+  margin-right: auto; /* Centraliza o bloco com max-width */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.contact-message-container p {
+  font-size: 1.2em; /* Tamanho da fonte um pouco maior */
+  color: #333; /* Cor do texto */
+  margin: 0; /* Remove margem padrão do parágrafo */
+}

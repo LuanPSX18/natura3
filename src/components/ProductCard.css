@@ -1,0 +1,31 @@
+/* src/components/ProductCard.css */
+
+.product-card {
+  border: 1px solid #ccc; /* Borda simples padrão */
+  border-radius: 8px; /* Cantos arredondados */
+  padding: 15px; /* Espaço interno */
+  text-align: center; /* Centraliza o texto */
+  width: 200px; /* Largura fixa para o card */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  background-color: #fff; /* Fundo branco */
+  cursor: pointer; /* Muda o cursor para indicar que é interativo */
+  transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out; /* Adiciona transição suave para transform e border-color */
+}
+
+/* Estilos aplicados quando o mouse passa por cima do card */
+.product-card:hover {
+  transform: scale(1.05); /* Aumenta o tamanho do card em 5% */
+  border: 1px solid orange; /* Adiciona a borda laranja */
+}
+
+
+.product-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.product-card .product-price {
+  color: #007f00; /* Uma cor verde para o preço */
+  font-weight: bold;
+}

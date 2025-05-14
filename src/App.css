@@ -1,0 +1,21 @@
+/* src/App.css */
+
+/* Garante que o corpo da página e o container principal ocupem toda a altura da viewport */
+html, body, #root, .App {
+  height: 100%; /* Usa 100% da altura do elemento pai */
+  margin: 0; /* Remove margens padrão do body */
+  padding: 0; /* Remove padding padrão do body */
+  box-sizing: border-box; /* Inclui padding e border no cálculo do tamanho */
+}
+
+.App {
+  display: flex; /* Ativa o flexbox */
+  flex-direction: column; /* Organiza os filhos (Header, MainContent, Footer) em coluna */
+  min-height: 100vh; /* Garante que o container tenha pelo menos a altura da viewport */
+}
+
+/* Estilos gerais (se houver algum que você queira manter) */
+/* Por exemplo, podemos manter a fonte padrão aqui */
+body {
+  font-family: 'Arial', sans-serif; /* Exemplo de fonte */
+}

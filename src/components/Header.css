@@ -1,0 +1,21 @@
+/* src/components/Header.css */
+
+/* Estilo básico para o container do cabeçalho */
+.header-container {
+  text-align: center; /* Centraliza o texto */
+  padding: 20px; /* Adiciona um pouco de espaço interno */
+  background-color: #f0f0f0; /* Um fundo cinza claro para destacar */
+  border-bottom: 1px solid #ccc; /* Uma linha na parte inferior */
+}
+
+/* Estilo para o título h1 */
+.header-container h1 {
+  color: #333; /* Cor do texto */
+  margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+/* Estilo para o parágrafo */
+.header-container p {
+  color: #666; /* Cor do texto */
+  font-size: 1.1em; /* Tamanho da fonte um pouco maior */
+}

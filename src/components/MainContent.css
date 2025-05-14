@@ -1,0 +1,19 @@
+/* src/components/MainContent.css */
+
+.main-container {
+  display: flex; /* Ativa o flexbox */
+  flex-grow: 1;
+  flex-direction: row; /* Por padrão, os itens ficam em linha */
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se não couberem */
+  justify-content: center; /* Centraliza os itens no container principal */
+  padding: 20px; /* Espaço interno */
+  gap: 20px; /* Espaço entre os cards */
+}
+
+/* Media Query para telas menores (mobile) */
+@media (max-width: 768px) { /* Você pode ajustar este breakpoint (768px) */
+  .main-container {
+    flex-direction: column; /* Em telas menores, os itens ficam em coluna */
+    align-items: center; /* Centraliza os itens na coluna */
+  }
+}
